@@ -1,0 +1,17 @@
+<div class="container" style="background-color: rgba(0,0,0,0)">
+  <div class="login">
+    <div class="encabezado">
+      <img style="border-radius:35px;" src="https://media.istockphoto.com/vectors/airplane-fly-out-logo-plane-taking-off-stylized-sign-vector-id1137971264?k=20&m=1137971264&s=612x612&w=0&h=_Mds3bkTPPoIBHsa9orqQCW6gO7dka96d3BJvdh7sHg=" alt="">
+      <h1 style="color:#007bff">Air University</h1>
+    </div>
+    <div class="inputs">
+      <input type="text" name="usuario"  placeholder="Usuario" [(ngModel)] = "usersmodel.num_document" class="uno">
+      <input type="password" name="password1"  placeholder="Contraseña" [(ngModel)] = "usersmodel.password" class="uno">
+     <div class="row">
+       <div class="col-6 m-auto">
+      <button type="submit" name="button1" class="  btn btn-link btn-md " (click)="login()"><i class="fa fa-user-tie"></i>Iniciar Sesion</button>
+    </div>
+  </div>
+  </div>
+  </div>
+</div>
